@@ -44,7 +44,7 @@ class MiWiFi:
             data={
                 "username": "admin",
                 "logtype": "2",
-                "password": generate_password_hash(f"{nonce}", password),
+                "password": generate_password_hash(nonce, password),
                 "nonce": nonce,
             },)
         except:
