@@ -19,7 +19,7 @@ Python >= 3.6
 import pymiwifi
 
 
-miwifi = pymiwifi.MiWiFi()
+miwifi = pymiwifi.MiWiFi('Router login Page Url')
 miwifi.login('admin_pass')
 
 miwifi.status()
